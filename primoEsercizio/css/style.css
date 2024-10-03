@@ -1,0 +1,41 @@
+div{
+    color: red;
+}
+
+/*
+@font-face {
+    font-family: FontPersonale ;
+    src: url(../font/nomedelfontscelto.otf) format("opentype");   nel caso di font otf il fotmat e opentype, comunque cercalo a seconda del font che hai 
+
+*/
+
+/*
+
+SELETTORI CSS
+
+#id:
+#colore-blu{
+    attributo: valore
+}
+
+.classe:
+.nome-classe{
+attributo: valore
+}
+
+
+Selettori figli:
+
+padre  figlio{
+attributo: valore
+}
+
+p b{
+color: blu
+}
+
+header p b{
+color: red
+}
+*/
+
