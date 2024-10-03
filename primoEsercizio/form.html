@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1> Prove sui form </h1>
+
+Link per le altre pagine: 
+
+<br>
+<a href="index.html">Principale</a> 
+<br>
+<a href="table.html">Tabelle</a>
+
+<form action="">
+
+    <input type="text" placeholder="Nome" name="nome"> 
+    <input type="text" placeholder="Cognome" name="cognome"> 
+    <input type="email" required placeholder="La tua email" name="email"> 
+    <input type="password" placeholder="La tua password" name="password"> 
+    <br>
+    <label for="consenso_dati">Acconsento ai dati</label>
+    <input required id="consenso_dati" type="checkbox">
+    <hr>
+    <label for="m">Maschio</label>
+    <input id="m" type="radio" name="sesso">
+    <label for="f">Femmina</label>
+    <input id="f" type="radio" name="sesso">
+
+    <select name="" id="citta">
+        <option value="">--scegli--</option>
+        <option value="roma">Roma</option>
+        <option value="milano">Milano</option>
+    </select>
+
+    <textarea name="messaggio" id="" cols="20" rows="10">Scrivi qui i tuoi suggerimenti:</textarea>
+
+    <button>Invia</button>
+
+</form>
+
+
+</body>
+</html>
