@@ -1,0 +1,43 @@
+.main-container{
+    margin: 0 auto;
+    width: 600px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.under-logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3d893;
+    border-top: 2px orange solid;
+    padding: 0.1rem;
+    color: forestgreen;
+}
+h1{
+    text-align: center;
+}
+.first-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 25em;
+    padding-inline: 9rem;
+}
+figure{
+    margin: 0;
+}
+.second-section{
+
+}
